@@ -76,4 +76,4 @@ mkdir -p ${BUILD_DIR}/.profile.d
 cp -n ${LP_DIR}/.profile.d/* ${BUILD_DIR}/.profile.d/
 
 mkdir -p /app/bin
-cp ${BUILD_DIR}/bin/* /app/bin
+cp -r ${BUILD_DIR}/bin/* /app/bin
