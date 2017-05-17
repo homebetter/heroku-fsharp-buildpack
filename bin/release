@@ -3,5 +3,5 @@
 cat << EOF
 ---
 config_vars:
-    PATH: "/app/mono/bin:/usr/bin/:/bin"
+    PATH: "/app/bin:/app/mono/bin:/usr/bin/:/bin"
 EOF
